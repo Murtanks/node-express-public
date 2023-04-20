@@ -3,9 +3,9 @@ POST http://localhost:3000/api/users HTTP/1.1
 Content-Type: application/json
 
 {
-  "name": "adel",
-  "age": 1000,
-  "email": "10002@asdasd.com"
+  "name": "hector",
+  "age": 69,
+  "email": "6969@asdasd.com"
 }
 
 
@@ -14,7 +14,7 @@ GET http://localhost:3000/api/users HTTP/1.1
 
 ###
 
-GET http://localhost:3000/api/users/64417ac6254a5e4e7d47bb04 HTTP/1.1
+GET http://localhost:3000/api/users/{id} HTTP/1.1
 
 
 ###
