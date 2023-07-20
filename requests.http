@@ -14,7 +14,7 @@ GET http://localhost:3000/api/users HTTP/1.1
 
 ###
 
-GET http://localhost:3000/api/users/{id} HTTP/1.1
+GET http://localhost:3000/api/users/6441c90ac0c5405a9b0cb8bf HTTP/1.1
 
 
 ###

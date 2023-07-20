@@ -8,7 +8,7 @@ const router = express.Router();
 router.post ('/users', (req, res) => {
     const user = new userSchema(req.body);
     console.log(user);
-    user.save().then((data) =>  res.json(data)).catch((error) => res.json({message: error}))
+    user.save().then((data) =>  res.json(data)).catch((error) => res.json({message: error}));
 });
 
 
